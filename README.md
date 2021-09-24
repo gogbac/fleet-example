@@ -16,12 +16,12 @@ metadata:
 	  command:  ["asciiquarium"]
 
 Step2
-kubectl create -f aquarium.yaml
+- kubectl create -f aquarium.yaml
 
 Step3
-kubectl get pods -w
+- kubectl get pods -w
 
 Step4
-kubectl logs -f aquarium
+- kubectl logs -f aquarium
 
-this should display an aquarium
+- this should display an aquarium
