@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name:  funbox
+spec:
+  containers:
+  - name: funbox
+    image: wernight/funbox
+    command:
+      - sh
+      - -c
+      - "figlet funbox | boxes | toilet --gay -f term"
