@@ -5,13 +5,13 @@
 Step 1
 - create a "aquarium.yaml"
 
-Step2
+Step 2
 - kubectl create -f aquarium.yaml
 
-Step3
+Step 3
 - kubectl get pods -w
 
-Step4
+Step 4
 - kubectl logs -f aquarium
 
 - this should display an aquarium
