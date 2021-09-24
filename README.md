@@ -1,6 +1,6 @@
 # fleet-example
 
-#This fleet-example is to show how to deploy apps via fleet functionality in Rancher 2.6
+#This simple fleet-example is to show how to deploy an app via fleet functionality in Rancher 2.6 to multiple kurbenetes clusters
 
 Step 1
 - create a "aquarium.yaml"
@@ -13,5 +13,9 @@ Step 3
 
 Step 4
 - kubectl logs -f aquarium
-
 - this should display an aquarium
+- Ctrl + C to exit
+- 'clear' the screen
+
+Step 5 
+- kubectl delete pod aquarium

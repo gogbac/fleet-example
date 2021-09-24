@@ -2,8 +2,8 @@ apiVersion: v1
 kind: Pod
 metadata:
   name:  aquarium
-  spec:
-    containers:
-	- name:  funbox
-	  image: wernight/funbox
-	  command:  ["asciiquarium"]
+spec:
+  containers:
+  - name: funbox
+    image: wernight/funbox
+    command: ["asciiquarium"]
